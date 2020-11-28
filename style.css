@@ -1,0 +1,22 @@
+body{
+	font-family: 'Inconsolata', monospace;
+}
+
+ul{
+	list-style-type: none;
+	color: black;
+	position: inline;
+}
+
+li a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+}
+
+#wwlogo{
+	margin-left: 19px;
+	width: 10%;
+	left: 20px;
+}
