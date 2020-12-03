@@ -80,22 +80,30 @@ color: black;
 	color: black;
 }
 
-
+.shop-grid-wrapper{
+	display: flex;
+	height: auto;
+	text-align: center;
+	border: 1px white solid;
+	width: 100%;
+  }
 
 .shop-grid-img{
 	position: relative;
-	width: 100%;
+	width: 500px;
 	height: 230px;
 	float: left;
 	border: 1px white solid;
 	overflow: hidden;
 	display: inline-block;
   	margin: 0 auto;
+
 }
 
 .shop-imgs{
 	position: relative;
 	width: inherit;
+	overflow: hidden;
 }
 
 h3{
@@ -105,4 +113,27 @@ h3{
 
 .shop-imgs:hover{
 	opacity: .8;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  /* For mobile phones: */
+
+ul{
+	list-style-type: none;
+	color: black;
+	margin-right: 20px;
+}
+
+li a{
+	text-decoration: none;
+	color: black;
+	font-size: 10px;
+
+}
+
+
+#etsy-header{
+	margin-top: 60px;
+}
+
 }
